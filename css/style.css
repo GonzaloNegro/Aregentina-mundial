@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+}
+
+
+.nav{
+    width: 100%;
+    height: 100px;
+
+    background-color: rgb(0, 0, 54);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav img{
+    height: 80px;
+}
+
+.contPri{
+    width: 100%;
+    height: 600px;
+
+    background-image: url(../Images/messi.jpg);
+    background-size: cover;
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contPri-search{
+    width: 300px;
+    height: 340px;
+
+    border-radius: 20px;
+
+    border: 3px solid rgba(128, 128, 128, 0.829);
+    background-color: rgba(255, 255, 255, 0.438);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contPri-search-img{
+    width: 300px;
+    height: 240px;
+
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 1px solid #ededed;
+
+    background-image: url("../Images/copa.png");
+    background-size: cover;
+
+}
+
+.contPri-search-img2{
+    width: 300px;
+    height: 240px;
+
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 1px solid #ededed;
+
+    background-image: url("../Images/mbappe.jpg");
+    background-size: cover;
+}
+
+.contPri-search p{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    visibility: hidden;
+}
+
+/* .contPri-search-img img{
+ width: 100%;
+ height: 100%;
+
+ border-radius: 20px;
+} */
+
+.contPri-search-btn{
+    width: 100%;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contPri-search-btn button{
+    width: 50%;
+    height: 40px;
+
+    background-color: rgb(0, 0, 54);
+    border-radius: 20px;
+    color: #fefefe;
+
+    cursor: pointer;
+}
+
+.contPri-img img{
+    width: 150%;
+}
+
+.fot{
+    width: 100%;
+    height: 100px;
+
+    background-color: rgb(0, 0, 54);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fot .tit h1{
+    color: #fefefe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* --------------- */
+
+.stats{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stats-tit{
+    padding: 40px;
+    color: rgb(0, 0, 54);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.stats-info{
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    width: 400px;
+}
+
+th{
+    text-align: left;
+    border-bottom: 1px solid blue;
+}
+
+tr{
+    height: 50px;
+}
+
+.td{
+    text-align: center;
+}
+
+/* ------------------ */
+
+.player{
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 40px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+}
+
+.player-one{
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    background: #eeeeee;
+    box-shadow:  10px 10px 30px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.player li{
+    text-align: left;
+    margin-left: 40px;
+    padding: 5px;
+}
+
+.player-one img{
+    width: 100%;
+    height: 200px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.player-two{
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    background: #eeeeee;
+    box-shadow:  10px 10px 30px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.player-two img{
+    width: 100%;
+    height: 200px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.player-three{
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    background: #eeeeee;
+    box-shadow:  10px 10px 30px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+.player-three img{
+    width: 100%;
+    height: 200px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+/* MOBILE */
+@media screen and (max-width: 599px){
+    .fot .tit h1{
+        font-size: 18px;
+    }
+    .stats-tit{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .stats-info{
+        padding: 20px;
+    }
+
+    table{
+        width: 300px;
+    }
+
+    tr{
+        height: 40px;
+    }
+
+    .contPri{
+        height: 450px;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .contPri-search{
+        width: 250px;
+        height: 300px;
+    
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .contPri-search-img{
+        width: 250px;
+        height: 200px;    
+    }
+    
+    .contPri-search-img2{
+        width: 250px;
+        height: 200px;
+    }    
+    
+    .contPri-search-btn button{
+        width: 70%;
+    }
+    
+    .contPri-img img{
+        width: 100px;
+    }
+}
