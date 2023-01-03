@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1, 
+        "nombre": "Goles a favor",
+        "cantidad": 15
+    },
+    {
+        "id": 2, 
+        "nombre": "Goles en contra",
+        "cantidad": 18
+    },
+    {
+        "id": 3, 
+        "nombre": "Tiros a puerta",
+        "cantidad": 83
+    },
+    {
+        "id": 4, 
+        "nombre": "Penales",
+        "cantidad": 5
+    },
+    {
+        "id": 5, 
+        "nombre": "Corners",
+        "cantidad": 39
+    },
+    {
+        "id": 6, 
+        "nombre": "Faltas recibidas",
+        "cantidad": 115
+    },
+    {
+        "id": 7, 
+        "nombre": "Offsides",
+        "cantidad": 23
+    },
+    {
+        "id": 8, 
+        "nombre": "Corners",
+        "cantidad": 39
+    },
+
+    {
+        "id": 9, 
+        "nombre": "Amarillas",
+        "cantidad": 17
+    },
+    {
+        "id": 10, 
+        "nombre": "Pases acertados",
+        "cantidad": 3721
+    },
+    {
+        "id": 11, 
+        "nombre": "Posesión",
+        "cantidad": "57%"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1, 
+        "nombre": "Lionel Messi",
+        "goles": 7, 
+        "disparos": 33,
+        "asistencias": 3,
+        "pases": 226,
+        "imagen": "./Images/lionel.jpg"
+    },
+    {
+        "id": 2, 
+        "nombre": "Julián Álvarez",
+        "goles": 4, 
+        "disparos": 11,
+        "asistencias": 5,
+        "pases": 157,
+        "imagen": "./Images/Julian.jpg"
+    },
+    {
+        "id": 3, 
+        "nombre": "Enzo Fernández",
+        "goles": 1, 
+        "disparos": 5,
+        "asistencias": 0,
+        "pases": 469,
+        "imagen": "./Images/enzo.jpg"
+    }
+]
