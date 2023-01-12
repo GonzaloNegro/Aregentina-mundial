@@ -32,7 +32,7 @@ const info = document.querySelector('.player');
 
 /* FUNCION ASINCRONA PARA TRAER LOS DATOS DEL JSON */
 async function getData(){
-    const response = await fetch('../jugadores.json');
+    const response = await fetch('./jugadores.json');
     const data = await response.json();
     createHTML(data);
 }
